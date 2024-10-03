@@ -1,0 +1,165 @@
+body {
+    margin: 0 auto;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+h3 {
+    margin-top: 0;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 34px;
+}
+
+.activity h3 {
+    color: #1E1E24;
+    text-decoration: underline;
+    text-decoration-color: #A31E39;
+    text-decoration-thickness: 5px;
+}
+
+.title {
+    font-family: "Merienda", cursive;
+    font-weight: 900;
+    background-color: #1E1E24;
+    padding: 10px 15px;
+    border-radius: 10px;
+    font-size: 48px;
+}
+
+.intro-text {
+    text-align: center;
+    max-width: 1200px; 
+    background-color: #1E1E24;
+    padding: 10px 15px;
+    margin: 0 10px;
+    border-radius: 10px;
+
+}
+
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-image: url("images/heroimg.jpg");
+    object-fit: cove;
+    width: 100%;
+    height: 325px;
+    color: white;
+    
+}
+
+
+.activity-img {
+    width: 500px;
+    height: 300px;
+    background-size: cover;
+    border-radius: 30px;
+}
+
+.cufc {
+    background-image: url("images/cufc.jpg");
+}
+
+.castle {
+    background-image: url("images/castle.jpg");
+}
+
+.lakes {
+    background-image: url("images/lakedistrict.jpg");
+}
+
+#cufc:hover {
+    background-image: url("https://media1.tenor.com/m/xY1hBlDWIT0AAAAC/carlisle-united-jimmy-glass.gif");
+}
+
+#castle:hover {
+    background-image: url("https://media1.tenor.com/m/Ie-Q1Q_7fmcAAAAC/pour-hot-oil-medieval-castle-defence.gif");
+}
+
+#lakes:hover {
+    background-image: url("https://media1.tenor.com/m/Sj4djkncmq4AAAAC/good-morning.gif");
+}
+
+.a-title {
+    font-size: 30px;
+    margin-top: 5px;
+    margin-bottom: 0px;
+    text-decoration: underline;
+}
+
+.a-description {
+    font-size: 20px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.activity {
+    display: flex;
+    flex-direction: column;
+    background-color: #D7D6D6;
+}
+
+.activity-column {
+    width: 500px;
+    border: 5px solid #A31E39;
+    background-color: #A31E39;
+    color: #F6F6F6;
+    padding: 10px 10px 0 10px;
+    margin: 10px 0;
+    border-radius: 35px;
+}
+
+.activity-group {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 50px 0 100px 0;
+}
+
+.avatar {
+    width: 200px;
+    border-radius: 20px;
+    margin-right: 20px;
+}
+
+.card {
+    width: 700px;
+    margin: 100px auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    background: #A31E39;
+    color: #F6F6F6;
+    border-bottom: 8px solid #2C5C93;
+    border-radius: 10px;
+}
+
+.info {
+    margin-top: 20px;
+}
+
+.card-info {
+    font-size: 20px;
+}
+
+.card-name {
+    font-size: 24px
+}
+
+.footer {
+    background-color: #A31E39;
+    color:#F6F6F6;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer p {
+    font-size: 22px;
+}
